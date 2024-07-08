@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'aventa-extra-light-italic';
+    src: url('./extra_light_italic.woff2') format('woff2'),
+         url('./extra_light_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-extra-light';
+    src: url('./extra_light.woff2') format('woff2'),
+         url('./extra_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-italic';
+    src: url('./italic.woff2') format('woff2'),
+         url('./italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-light-italic';
+    src: url('./light_italic.woff2') format('woff2'),
+         url('./light_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-light';
+    src: url('./light.woff2') format('woff2'),
+         url('./light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-regular';
+    src: url('./regular.woff2') format('woff2'),
+         url('./regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-thin-italic';
+    src: url('./thin_italic.woff2') format('woff2'),
+         url('./thin_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-thin';
+    src: url('./thin.woff2') format('woff2'),
+         url('./thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-variable-italic';
+    src: url('./variable_italic.woff2') format('woff2'),
+         url('./variable_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-variable';
+    src: url('./variable.woff2') format('woff2'),
+         url('./variable.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-black-italic';
+    src: url('./black_italic.woff2') format('woff2'),
+         url('./black_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-black';
+    src: url('./black.woff2') format('woff2'),
+         url('./black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-bold-italic';
+    src: url('./bold_italic.woff2') format('woff2'),
+         url('./bold_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-bold';
+    src: url('./bold.woff2') format('woff2'),
+         url('./bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-extra-bold-italic';
+    src: url('./extra_bold_italic.woff2') format('woff2'),
+         url('./extra_bold_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-extra-bold';
+    src: url('./extra_bold.woff2') format('woff2'),
+         url('./extra_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-medium-italic';
+    src: url('./medium_italic.woff2') format('woff2'),
+         url('./medium_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-medium';
+    src: url('./medium.woff2') format('woff2'),
+         url('./medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-semi-bold-italic';
+    src: url('./semi_bold_italic.woff2') format('woff2'),
+         url('./semi_bold_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aventa-semi-bold';
+    src: url('./semi_bold.woff2') format('woff2'),
+         url('./semi_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

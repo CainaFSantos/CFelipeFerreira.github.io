@@ -1,0 +1,122 @@
+#projects .projects__content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  overflow: auto;
+  flex-direction: column;
+  max-width: 56rem;
+  text-align: center;
+  margin: 0 auto 6rem;
+}
+
+#projects .card-container{
+  margin-top: 0em;
+  margin-bottom: 7em;
+ }
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.projeto-adicional {
+  display: none; 
+}
+
+.btn-ler-mais-2 {
+  margin-bottom: 7em;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: #000000;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.card-details {
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+}
+
+.card-button {
+  text-decoration: none;
+  text-align: center;
+  -webkit-transform: translate(-50%, 125%);
+  -ms-transform: translate(-50%, 125%);
+  transform: translate(-50%, 125%);
+  width: 70%;
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--pink);
+  color: #fff;
+  font-size: 3rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card:hover {
+  border-color: var(--pink);
+  -webkit-box-shadow: 10px 5px 18px 0 var(--pink);
+  box-shadow: 10px 5px 18px 0 var(--pink);
+}
+
+.card:hover .card-button {
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+@media (min-width: 769px) {
+  .card-container {
+    margin: 15em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+      flex: 0 1 calc(33.33% - 20px);
+      margin-right: 20px;
+    }
+    
+    .card:last-child {
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+      margin: 2.5em;
+    }
+    
+    .card {
+      margin-top: 3em;
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}

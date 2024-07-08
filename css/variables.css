@@ -1,0 +1,15 @@
+@import '../assets/fonts/aventa/aventa.css';
+:root {
+  --white: #ffffff;
+  --gray: #1A1E21;
+  --black: #000000;
+  --primary-color: #ED145B;
+  --secondary-color: #ED145B;
+  --pink: #ED145B;
+  --dark-secondary-color: #3c415c;
+  --tertiary-color: #91A3AD;
+  --light-tertiary-color: #080A0B;
+  --text-color: #91A3AD;
+
+  --font-family: 'aventa-regular';
+}

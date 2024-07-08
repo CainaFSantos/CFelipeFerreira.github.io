@@ -1,0 +1,187 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+  scrollbar-width: auto;
+  scrollbar-color: #df0467 ;
+}
+
+*::-webkit-scrollbar {
+  width: 13px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #df0467;
+  border-radius: 10px;
+  border: 3px solid ;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1A1E21;
+  font-size: 1.6rem;
+  margin-top: 15rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 5.0rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-family: 'aventa-extra-bold';
+  color: #df0467;
+  font-size: 4rem;
+  margin: 3rem;
+}
+
+h3 {
+  font-family: 'aventa-extra-bold';
+  color: var(--text-color);
+}
+
+.secondary-title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.tertiary-title {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4.5rem;
+  color: var(--secondary-color);
+}
+
+p,
+.p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  color: #91A3AD;
+}
+
+p:not(:last-of-type),
+.p:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid var(--pink);
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: var(--pink);
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+.btn:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #FF0072;
+  z-index: -1;
+}
+
+.btn:hover, .btn:focus {
+  color: white;
+}
+
+.btn:hover:before, .btn:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.max-width {
+  width: 100%;
+  max-width: 120rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+  margin-bottom: 26rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-s {
+  margin-bottom: 1rem;
+}
+
+.mb-m {
+  margin-bottom: 2rem;
+}
+
+.mb-l {
+  margin-bottom: 4rem;
+}
+
+.mb-xl {
+  margin-bottom: 6rem;
+}
+
+.image-projects {
+  width: 18em;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 60%;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 58%;
+  }
+
+  .max-width {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}
